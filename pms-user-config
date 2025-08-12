@@ -11,7 +11,6 @@ spring:
     url: jdbc:mysql://localhost:3306/pms_dev
     username: root
     password: root
-
   jpa:
     hibernate:
       ddl-auto: update
@@ -24,8 +23,8 @@ spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    username: grafixarkapp@gmail.com
-    password: fiixyangbchdjhfk
+    username: sadhikap41@gmail.com
+    password: yilmzpcsvrkzqpnp
     port: 587
     protocol: smtp
     test-connection: false
@@ -56,4 +55,3 @@ eureka:
 
 jwt:
   secret: mIsZkRfEY3VJrZV6Z0hC9U4J9C7gdWk4PuB6M/Nr7YcMpOmXzGfF2/3Yk7zNz2aE8J6OlPaPNRMK6PqRfzkgRA==
-
